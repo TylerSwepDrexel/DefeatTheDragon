@@ -1,0 +1,38 @@
+﻿Henry Tucker
+Design Doc
+
+
+Design Rationale: All of the content that I have proposed below has been made to imitate the apparent design rationale of slay the spire, while expanding on it. Each of the content below serves functions that I did not see done in Slay the Spire.
+
+
+Cards:
+* Acid Splash (Attack)
+        Cost: 1 Energy
+        Description: Deal 4 damage to one enemy and each enemy on either side of it.
+        Upgraded Description: Deal 8 damage to one enemy and each enemy on either side of it.
+        Design: In Slay the Spire, there were many ways to damage enemies, but the ones that I came across fell under categories of damaging one chosen enemy, one random enemy or each enemy. This card would allow the player to target three enemies without targeting the fourth. They would do this by selecting one enemy, and the two on either side would take the same damage. This would be great for dealing with enemies that have minions. Outside of those fights it wouldn’t be as optimal, but since its damage doubles when you upgrade it, it can still be useful even on 1v1 encounters.
+* Booming Strike (Attack)
+                Cost: 1 Energy
+                Description: Deal 5 damage. If the enemy attacks you before your next turn, it takes an additional 5 damage.
+                Upgraded Description: Deal 8 damage. If the enemy attacks you before your next turn, it takes an additional 8 damage.
+                Design: There was only one card that I ever came across that acted differently based on enemy intention, which I thought was strange considering enemy intent is a big part of the game, so I decided that having a card that punished an enemy for acting in a certain way, especially since you know what they plan to do ahead of time, would be rewarding. I considered this card being a punishment for debuffing the player, but that would make it a little more niche than I was originally intending.
+* Reflection Strike (Skill)
+Cost: 3 Energy
+Description: Take half damage from the next attack to hit you before your next turn. Add 4 damage to the first attack you make next turn.
+Upgraded Description: Take half damage from the next attack to hit you before your next turn. Add 7 damage to the first attack you make next turn.
+Design: This card does two things that I saw very little, or none of in Slay the Spire. 1. It reduces incoming damage. 2. It adds damage to a subsequent attack. Obviously this card is quite strong, so the energy cost is expensive, and upgrading the card wouldn’t be as worth it as upgrading others.
+
+
+Enemy: 
+* Banshee
+Passive Ability - Undeath: The first time in a turn that Banshee should die, it instead drops to 1hp.
+Moves:
+        Necrotic Rip: deals 14 damage
+        Glare: Inflicts Weak 3, Gain 7 block
+Design: My idea behind this was more behind the Undeath passive ability than the whole enemy itself. Essentially, what the passive ability does is force the player to deal damage more than once in a turn in order to finish the Banshee off, even if the Banshee has been reduced to 1hp. I figure an ability like this would incentivise the player to think about this combat encounter in a different way than others. Rather than looking for the attack that deals the most damage, the player may need to instead choose which moves would be most effective in getting at least two attacks in this turn.
+        
+
+
+Relic:
+* Alchemy Kit: At Rest Sites you can choose to brew two random potions for a monetary cost.
+Design: This relic allows rest sites to act in a similar way to the merchant for the purpose of obtaining potions. The main differences are that the price is lower, but the player doesn’t get to select the potions they receive.

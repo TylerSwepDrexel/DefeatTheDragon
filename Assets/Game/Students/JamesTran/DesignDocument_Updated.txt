@@ -1,0 +1,21 @@
+James Tran
+
+Design Document
+
+Card 1 - Debuff removal
+Remove all debuffs
+Gives players a get out of jail free card because debuffs are very harmful and often stacked when enemies use them
+
+Card 2 - Armor Piercing
+Deal x damage. Goes through armor
+Very useful against enemies that stack armor, instead of chipping away it can accelerate the process of killing them
+
+Card 3 - All In
+Exhaust all Skill Cards. Gain 1 strength for all cards exhausted
+Last resort card. Gives lots of strength to boost all attack cards and hope to kill the enemy in the next few turns
+
+Enemy - Poison enemy
+Alternates between x applying poison and gaining y armor
+
+Relic - Time Eater Clock
+Turn automatically ends after 12 seconds. Gain energy at the start of your turn

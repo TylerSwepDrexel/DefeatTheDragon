@@ -1,0 +1,26 @@
+﻿Lee Lee McNeil 
+Design Document
+Cards: 
+
+
+* Poison Tick - Deals 6 Damage to ALL enemies each round. Discard 2 cards at random. 
+   * This card provides significant overtime damage to help efficiently win the round, at the sacrifice of 2 random cards. The question is if the player is willing to sacrifice 2 cards for this consistent output of damage.
+   * The design rationale behind this card is to entice the player to take a major risk to secure a fight, adding intensity to battles and player decision. 
+   * Upgrade increases Damage to 8 each round. 
+* Spike Defense - Gain 6 Block Deal 7 Damage. 
+   * This card provides an offensive and defensive opportunity for the player. It is a useful but not too strong card that is useful in combat, giving the player a small advantage in combat. 
+   * The design rationale behind this card is to balance between powerful cards and weaker cards, providing a useful, but not overpowered card into the mix. 
+   * Upgrade increases Damage to 8. 
+* Disintegrate - Remove ALL block from the enemy. Deal 7 damage. Draw 1 additional card.
+   * This is a strong card to help the player especially through Act II. Not only does it provide weakening defense of the enemy, but it allows the player to deal offensive damage and draw another card. This is a strong card that provides multiple options to the player, where they can stack their attacks. 
+   * The design rationale behind is to provide strategy for the player, so they can stack attacks after stripping defense of the enemy. The player should think carefully before drawing this card, so that they maximize its damage output potential. 
+Enemy: 
+* Fiery Golem 
+   * This elite enemy stacks up on 3 burns and 1 wound every time it hits the player. The player needs to learn how to take out this enemy quickly, to avoid it’s exponential damage stacking. The best counter to this is the Emerald Mirror relic.
+   * The design rationale behind this enemy is to encourage the player to counter a high damage over time output enemy, making the player utilize their cards and relics in a strategic way to specifically counter a challenging enemy. 
+Relic:
+* Emerald Mirror 
+   * At the start of your 4th turn, add 8 block and reflect any status impairments sent by the enemy back at them. 
+   * This relic will be useful against enemies that output high status effects, providing some defense for the player, and counter-attack. 
+   * The design rationale behind this relic is to encourage the player to pay attention to the enemy they’re fighting and focus on countering their abilities. The player has to study their enemy and know when to use this specific relic. 
+   * Rare

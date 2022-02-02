@@ -1,0 +1,41 @@
+Alex Jasmin
+1/13/22 
+Design Document Ver. 2
+
+For this design document, I’ve come up with 3 cards, an enemy card, and a relic card that I will be working on for future assignments. The 3 cards I wanted to make cover each rarity, but primarily focus on attack. I want to contribute to the players experience in dealing damage, I never liked defense anyway. 
+I referenced the Wikipedia for Slay The Spire to setup my layout for each of these cards. 
+
+Attack Card: Serrated Wide Slash
+Rarity: Common
+Type: Attack
+Energy: 2
+Description: Deal 10 Damage to All Enemies. Apply 2 Weak.
+
+Skill Card: Dope Up
+Rarity: Uncommon
+Type: Skill
+Energy: 1
+Description: Gain low (around 2 - 5) strength, will last 2 turns. Grants around 15 Block that loses 3 block after each turn. Card will exhaust after being used.
+
+Attack Card: Dragon Dart
+Rarity: Rare
+Type: Attack
+Energy: 2
+Description: Deal 45 Damage to one enemy. Deals an additional 10 damage to the enemies around. Add Burn to Card Deck.
+
+
+ENEMY CARD: Slash N’ Dasher
+HP: 50
+Powers: None
+Encounter Chance: 35%
+Moves: Dope Up & Serrated Wide Slash
+Pattern: Starts with Dope Up, then will use Serrated Wide Slash for every turn afterwards.
+Description: This enemy is a big guy with a serrated knife and a dream.
+
+RELIC CARD: Energy Drink
+Rarity: Uncommon
+Flavor: I’ve never felt more alive! More! More!
+Class: All
+Description: Gain 2 max energy. Player is now Vulnerable forever. 
+
+

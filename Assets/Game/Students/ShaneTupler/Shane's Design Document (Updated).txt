@@ -1,0 +1,12 @@
+Design Doc
+
+The main mechanic that I would like to implement are cards that are affected by the number of cards you have played during your turn.
+
+3 Cards : 
+One of the cards will add 3 cards that cost 0 mana to your hand, 
+One will be a card that deals a decent amount of damage but start out at a high cost. This card will cost less for every card played this turn.
+The last card will be inexpensive to play but deal a low amount of damage. It will increase in damage for every card played this turn.
+1 Enemy : 
+The enemy, similarly to one of my cards will deal more damage per every card that you played in your turn. This should create an interesting dynamic where the player avoids playing large numbers of cards in a turn until they are able to defeat the enemy in a single turn.
+1 Relic : 
+Every time you play 6 cards in a single turn, you regain 8 health. Again, this is another incentive to play large amounts of cards in a single turn. I originally thought of it being a damage boost, but that might not be that useful if it only happens after you've already played 6 cards.

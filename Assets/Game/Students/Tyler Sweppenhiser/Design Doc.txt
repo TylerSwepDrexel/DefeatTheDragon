@@ -1,0 +1,28 @@
+Tyler Sweppenhiser Design Document 
+Card one 
+Name: Stop Watch 
+Description:The next card used will not have any energy cost used to put it into play. 
+Cost: 1 Energy 
+
+Card two
+Name: Sands of time
+Description: This card will allow the player to repeat their next card and receive the benefits from it twice.
+Cost: 1 Energy 
+
+Card Three 
+Name:Crimson King 
+Description: Skip your enemies turn and deal 5 damage 
+Cost: 2 Energy 
+
+
+Enemy -
+Name: Thieves Guild King 
+Attack one:Will start their turn by stealing a card left over from the player and using it against them. 
+Attack two: Damage player by 10 
+Health: 42
+
+Relic 
+
+Name:(Platinum Hero)
+Description:You constantly feel as though you are not alone and have a 30% chance that every card you play will be used twice at no additional cost.
+

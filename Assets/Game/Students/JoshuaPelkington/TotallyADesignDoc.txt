@@ -1,0 +1,118 @@
+Joshua Pelkington
+1/6/2022
+Design Document
+
+
+The theme of my cards, enemy, and relic focus on the utilization of status effects and using buff and debuffs to generate value. I wanted to add more interactions between status effects and give the player reason to think about what effects they are applying and maximizing their potential.
+
+Another theme of my cards specifically is designed around flexibility in usage for general play, but allows for focused builds that lead to great rewards. 
+
+Status effects, whether positive or negative, already affect the outcome of any given fight, but they don’t really interact with each other, and only certain status effects have unique synergy with a few cards here and there. (Ex. Poison themed decks)
+
+My idea is to reward the player for doing things they should already be trying to do (debuff enemies, buff self) and give incentive for further extending their playstyle to accommodate cards that add new effects.
+______________________________________________
+
+Card 1:
+
+Prism Strike
+[Attack]
+
+1 Energy
+
+Deal 6 (8) damage. Deal an additional 6 (8) damage to an enemy for every unique status effect it has.
+______________________________________________
+
+This card rewards a number of play styles, and even has inherent advantages against enemies that buff themselves, which includes a number of bosses. Many cards and relics apply status effects and they can be chosen knowing this card exists to build around. If a player is finding they are applying effects frequently to enemies, then this card could be an easy pickup in a shop or as a reward. With simple setups this card can easily hit upwards of 18-24 damage for 1 energy.
+
+To prevent this card being useless in some scenarios / decks (especially if given randomly / transformed into) this card now always does 6 damage but does more damage the more effects on the enemy.
+______________________________________________
+
+Card 1.5:
+
+Judgement of Purity
+[Attack]
+
+2 Energy
+
+Deal 25 Damage. Deals 5 less damage for each status effect on the target.
+______________________________________________
+
+This card counters the general gameplan of applying statuses first then attacking for massive damage. This card deals heavy damage when played as one of the first cards of a given turn provided the enemy doenst have many statuses, but card order is important to maximize value.
+
+______________________________________________
+
+Card 2:
+
+Prism Shield
+[Skill]
+
+1 Energy
+
+Gain 5 (7) block. Gain 5 (7) additional block for each unique status effect you have.
+______________________________________________
+
+This card benefits playstyles that apply buffs to the player, granting a powerful defensive option for decks that might be very offensive. This also works when the player is debuffed however, allowing the player to defend against a powerful foe that applies many debuffs. 
+
+To prevent this card being useless in some scenarios / decks (especially if given randomly / transformed into) this card now always gives 5 block but gives more block with more effects on the player.
+______________________________________________
+
+Card 3:
+
+Prismatic Assault
+[Skill]
+
+2 Energy
+
+Apply 2 Weakness, Vulnerable, and Poison to an enemy. Exhaust. 
+(Apply 2 Weakness, Vulnerable, and Poison to an enemy.)
+______________________________________________
+
+This card is one of many ways to apply a few of the debuffs to enemies. This would then enable another card like Prism Blade to be used for a 3 energy combo that is pretty powerful. The upgraded version can be used more than once per fight, making it a good target for a campfire upgrade. These debuffs not only enhance Prism Blade, but they all have their own effects that can be utilized in any playstyle, making this a versatile card.
+______________________________________________
+
+Enemy:
+
+Crystal Goliath
+
+150 - 200 Health
+
+Powers: 
+Perfect Reflection -> When receiving a debuff, instead apply it to all enemies
+
+Moves:
+Clear Coat -> Remove all Buffs from all Enemies
+Shard Slash -> Deal 3x3 Damage, Apply 2 Frail
+Crystal Crush -> Deal 7x3 Damage
+Corrupted Crystallization -> Apply 5 Strength to self
+
+Pattern:
+The first turn will always be a check for enemy buffs. If the player has 2 or more Buffs, Clear Coat will be used. If the enemy has less than 2 buffs, Corrupted Crystallization will be used.
+For the next 2 turns there is a 50% of using either Crush or Shard Slash, then follows up with the one that wasn't used.
+After using both Crush and Shard Slash, another check for buffs will be performed.
+This is followed by Crush and Shard, or Vice Versa.
+
+This loop repeats until the battle ends.
+______________________________________________
+
+The Crystal Goliath is a large tanky enemy that deals damage in powerful bursts. It’s abilities in combat directly counter the use of status effects to turn the tides of combat, forcing the player to be strategic on when to buff and what cards to use. 
+
+The ability to reflect incoming debuffs is powerful, and should challenge the player’s normal thought processes of playing some of their more powerful cards.
+
+The fight also discourages the use of buffs, as they are quickly taken away. This can be used to the player's advantage however, as it delays the massive strength growth the Crystal Goliath has.
+______________________________________________
+
+Relic:
+
+Focusing Crystal
+
+Effect(WIP):
+When applying a buff or debuff, apply another random buff or debuff with duration of 1
+or
+When applying a buff or debuff, increase it’s duration/power by 1
+______________________________________________
+
+Cannot decide which effect is better, as they both seem powerful but could be hard to implement effectively.
+
+This is a simple effect but can be very powerful for any deck that applies effects. This relic greatly encourages the use of cards that grant effects, granting extra bonuses that may not be easily obtained by the current deck. This also benefits the cards above that can use many unique effects to grow in power.
+
+This will probably be limited to a few simple buffs and debuffs so as to not grant extremely powerful or unintended effects.

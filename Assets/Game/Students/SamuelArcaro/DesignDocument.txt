@@ -1,0 +1,30 @@
+Samuel Arcaro
+
+Assignment 01 - Design Document
+
+Card 01:
+Title: Final Resort
+Description: Deals 50 damage to an enemy. If the enemy survives, you will also take 50 damage.
+Cost: 1 Mana
+
+Card 02:
+Title: Copycat
+Description: Copies an enemies attack from the previous turn and uses it back against them.
+Cost: 1 Mana
+
+Card 03:
+Title: Full Block
+Description: The first enemy attack will not do any block / damage to you for this turn.
+Cost: 3 Mana
+
+Enemy:
+Name: Rager
+HP: 16
+Description: Attacks for 2 Damage on the first turn. Each turn afterwards, it will deal 2 more Damage.
+If these enemies are encountered, then there should only be a maximum of 2 of them at a time.
+( 2 -> 4 -> 6 -> 8 -> 10, etc)
+
+Relic:
+Name: Blood Strength
+Description: For each enemy defeated, increase Strength +2 until the end of the battle.
+
