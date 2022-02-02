@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum InteractionType { Damage, Block, Draw, Mana, Vulnerable, Weak };
+public enum InteractionType { Damage, Block, Draw, Mana, Status };
 [System.Serializable]
 public class CallForInterjections
 {

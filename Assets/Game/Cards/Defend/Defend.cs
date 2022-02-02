@@ -20,6 +20,7 @@ public class Defend : Card, ITargetSingleEnemy
     {
         if (target == null)
         {
+
         }
         else
         {

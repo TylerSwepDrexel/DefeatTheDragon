@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using ScriptableObjectArchitecture;
 
-public class Bash : Card, ITargetSingleEnemy
+public class BattleTrance : Card, ITargetSingleEnemy
 {
-    public int damage;
     public GameObject targeterPrefab;
     private GameObject currentTargeter;
     public GameObject target;
@@ -14,13 +13,16 @@ public class Bash : Card, ITargetSingleEnemy
     private GameObject currentProcessor;
     public CallForInterjectionsGameEvent interjectionEvent;
 
-    public GameObject vulnerabilityPrefab;
-    public int vulnerabilityAmount;
+    public GameObject preventCardDrawPrefab;
+    public int preventCardDrawDuration;
+    public int cardDrawAmount;
+    public IntGameEvent drawCardsEvent;
 
     public override void OnMouseUp()
     {
         if (target == null)
         {
+
         }
         else
         {
@@ -30,17 +32,18 @@ public class Bash : Card, ITargetSingleEnemy
             int processedManaCost = manaProcessor.GetComponent<InterjectionProcessor>().CalculateFinalValue();
             if (playerMana >= processedManaCost)
             {
-                target.GetComponent<ITakeDamage>().TakeDamage(this.gameObject, currentProcessor.GetComponent<InterjectionProcessor>().CalculateFinalValue());
+                GameObject cardDrawProcessor = Instantiate(processorPrefab);
+                cardDrawProcessor.GetComponent<InterjectionProcessor>().startingValue = cardDrawAmount;
+                interjectionEvent.Raise(new CallForInterjections(this.gameObject, target, InteractionType.Draw, cardDrawProcessor.GetComponent<InterjectionProcessor>()));
+                drawCardsEvent.Raise(cardDrawProcessor.GetComponent<InterjectionProcessor>().CalculateFinalValue());
+                Destroy(cardDrawProcessor);
+
+                GameObject currentPreventCardDraw = Instantiate(preventCardDrawPrefab);
+                currentPreventCardDraw.GetComponent<Status>().duration = currentProcessor.GetComponent<InterjectionProcessor>().CalculateFinalValue();
+                target.GetComponent<ITakeStatus>().TakeStatus(this.gameObject, currentPreventCardDraw);
+
                 playerMana.Value -= processedManaCost;
                 discardCardEvent.Raise(this.gameObject);
-
-                GameObject instantiatedVulnerability = Instantiate(vulnerabilityPrefab);
-                GameObject vulnerabilityProcessor = Instantiate(processorPrefab);
-                vulnerabilityProcessor.GetComponent<InterjectionProcessor>().startingValue = vulnerabilityAmount;
-                interjectionEvent.Raise(new CallForInterjections(this.gameObject, target, InteractionType.Status, vulnerabilityProcessor.GetComponent<InterjectionProcessor>()));
-                instantiatedVulnerability.GetComponent<Status>().duration = vulnerabilityProcessor.GetComponent<InterjectionProcessor>().CalculateFinalValue();
-                Destroy(vulnerabilityProcessor);
-                target.GetComponent<ITakeStatus>().TakeStatus(this.gameObject, instantiatedVulnerability);
             }
             else
             {
@@ -89,8 +92,8 @@ public class Bash : Card, ITargetSingleEnemy
         else
         {
             currentProcessor = GameObject.Instantiate(processorPrefab);
-            currentProcessor.GetComponent<InterjectionProcessor>().startingValue = damage;
-            CallForInterjections currentInterjection = new CallForInterjections(this.gameObject, target, InteractionType.Damage, currentProcessor.GetComponent<InterjectionProcessor>());
+            currentProcessor.GetComponent<InterjectionProcessor>().startingValue = preventCardDrawDuration;
+            CallForInterjections currentInterjection = new CallForInterjections(this.gameObject, target, InteractionType.Status, currentProcessor.GetComponent<InterjectionProcessor>());
             interjectionEvent.Raise(currentInterjection);
         }
     }
